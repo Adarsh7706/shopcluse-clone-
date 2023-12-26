@@ -1,8 +1,9 @@
 body {
     font-family: Verdana, sans-serif;
-    margin: 0;
-    width: 9
-        0%;
+    margin:0;
+    margin-left: -10px;
+    margin-right: -1px;
+    width: 100%;
 }
 
 /* Global styles */
@@ -21,15 +22,17 @@ body {
 }
 
 ul.ul {
-    height: 230px;
-    width: 195px;
+    height: 210px;
+    width: 177px;
     /* Add any additional styles for your ul element */
 }
-
+table{
+    width:100%;
+}
 /* Main content styles */
 .main,main {
     background-color: rgb(75, 73, 183);
-    padding: 6px;
+    padding: 5px;
     font-size: 25px;
     border-radius: 5px;
     text-align: center;
@@ -151,11 +154,12 @@ input {
 }
 
 /* Table styles */
-table th, td {
+table ,th, td {
     border: 2px solid rgb(4, 64, 194);
     border-radius: 3px;
     border-style: double;
     font-size: 8px;
+   
 }
 
 /* Scrollmenu styles */
@@ -163,6 +167,7 @@ div.scrollmenu {
     background-color: rgb(75, 73, 183);
     overflow: auto;
     white-space: nowrap;
+    width: 100%;
 }
 
 div.scrollmenu a {
@@ -170,6 +175,7 @@ div.scrollmenu a {
     color: white;
     text-align: center;
     text-decoration: none;
+    width: auto;
 }
 
 div.scrollmenu a:hover {
@@ -179,5 +185,5 @@ div.scrollmenu a:hover {
 /* Social media and login styles */
 .facebook, .insta, .twitter, .google, .login {
     float: right;
-    margin-top: 13px;
+    margin-top: 10px;
 }
